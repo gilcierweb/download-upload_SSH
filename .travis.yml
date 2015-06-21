@@ -1,4 +1,5 @@
 language: ruby
+before_install: gem install bundler --pre
 script: "bundle exec rake"
 rvm:
   - 2.1.1
