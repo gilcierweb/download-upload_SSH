@@ -1,5 +1,6 @@
 language: ruby
+bundler_args: --without production
 before_install: gem install bundler --pre
-script: "bundle exec rake"
+script: "bundle install"
 rvm:
   - 2.1.1
