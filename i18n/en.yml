@@ -1,0 +1,34 @@
+en:
+  enter:
+    whats:
+      language: "Escolha o idioma / Choose the language Ex: pt-BR => Português Brasil = padrão / Portuguese Brazil = standard or en => English version"
+      name:
+        database: 'Enter the database name'
+        directory: 'Enter the path of the directory '
+      host: "What's host?"
+      username: "What's the username?"
+      password: "What's the password?"
+      port: "What's the port?"
+      local:
+        directory: "What's local directory path file do you want to download or upload?"
+      remote:
+        directory: "What's remote directory path file do you want to download or upload?"
+      filename: "What's name file do you want to download or upload?"
+      type:
+        action: 'What type of action upload or download?'
+        download: 'Starting download...'
+        upload: 'Starting upload...'
+  info:
+    directory:
+      no_exists: 'Directory no exists %{local}!'
+    server:
+      connecting: 'Connecting to server...'
+      entering: 'entering the server...'
+      list_directory: 'listing directories...'
+      upload:
+        file: "File to upload %{filename}!"
+        success: "Uploaded file %{filename} successfully!"
+      download:
+        file: "Downloadable file %{filename}!"
+        success: "Downloaded file %{filename} successfully!"
+      done_exit: 'Successfully carried out actions! Leaving the server !!'

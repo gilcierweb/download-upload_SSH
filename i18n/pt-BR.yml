@@ -1,0 +1,34 @@
+pt-BR:
+  enter:
+    whats:
+      language:  "Escolha o idioma / Choose the language Ex: pt-BR => Português Brasil = padrão / Portuguese Brazil = standard or en => English version"
+      name:
+        database: 'Informe o nome do Banco de Dados'
+        directory: 'Informe o caminho do diretorio'
+      host: 'Qual é o host?'
+      username: 'Qual é o usuário?'
+      password: 'Qual é a senha?'
+      port: 'Qual é a porta?'
+      local:
+        directory: 'Qual é arquivo caminho do diretório local que você deseja fazer o download ou upload?'
+      remote:
+        directory: 'Qual é arquivo caminho do diretório remoto que você deseja fazer o download ou upload?'
+      filename: 'Qual é nome do arquivo que você deseja fazer o download ou upload?'
+      type:
+        action: 'Qual é o tipo de ação upload ou download?'
+        download: 'Iniciando download...'
+        upload: 'Iniciando upload...'
+  info:
+    directory:
+      no_exists: "Diretório não existe %{local}!"
+    server:
+      connecting: 'Conectando ao servidor...'
+      entering: 'Entrando no servidor...'
+      list_directory: 'Listando diretórios...'
+      upload:
+        file: "Arquivo para upload %{filename}!"
+        success: ''
+      download:
+        file: "Arquivo para download %{filename}!"
+        success: "Arquivo baixado %{filename} com sucesso!"
+      done_exit: 'Ações realizadas com sucesso! Saindo do servidor!!'
