@@ -7,6 +7,7 @@ https://gorails.com/setup/ubuntu/14.04
 
 In terminal
 
+```shell
 sudo su
 
 sudo apt-get update
@@ -33,6 +34,7 @@ gem install bundler
 cd /download_upload_SSH
 
 bundle install
+```
 
 Use
 
