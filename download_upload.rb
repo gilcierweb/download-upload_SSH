@@ -32,8 +32,6 @@ puts I18n.translate 'enter.whats.host'
 server = gets.to_s.strip.chomp
 uri = URI.parse('sftp://' + server)
 
-puts I18n.translate "info.directory.no_exists"
-
 puts I18n.translate 'enter.whats.username'
 user = gets.to_s.strip.chomp
 

@@ -39,7 +39,11 @@ bundle install
 Use
 
 In terminal 
+
+```shell
 sudo su
+
 cd /download_upload_SSH
 
 ruby download_upload_SSH.rb
+```
