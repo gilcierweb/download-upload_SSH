@@ -1,5 +1,7 @@
 #Download Upload SSH Ruby 2+ with translate
 
+[![Build Status](https://travis-ci.org/gilcierweb/download-upload_SSH.svg?branch=master)](https://travis-ci.org/gilcierweb/download-upload_SSH)
+
 Link http://gilcierweb.com.br
 
 Install Ruby
