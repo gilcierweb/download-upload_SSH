@@ -33,7 +33,7 @@ ruby -v
 
 gem install bundler
 
-cd /download_upload_SSH
+cd /download-upload_SSH
 
 bundle install
 ```
@@ -45,7 +45,7 @@ In terminal
 ```shell
 sudo su
 
-cd /download_upload_SSH
+cd /download-upload_SSH
 
 ruby download_upload_SSH.rb
 ```
