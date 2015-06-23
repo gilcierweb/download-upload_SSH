@@ -71,7 +71,7 @@ class DownloadUploadSSH
 
   end
 
-  def self.download_ssh
+  def download_ssh
 
     begin
 
